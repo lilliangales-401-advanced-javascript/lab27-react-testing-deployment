@@ -5,20 +5,16 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "enzyme": "latest",
-    "enzyme-adapter-react-16": "1.7.0",
-    "eslint": "^6.4.0",
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
-    "react-jsonschema-form": "1.0.6",
-    "react-redux": "5.1.1",
-    "react-router-dom": "4.3.1",
-    "react-scripts": "2.1.1",
-    "react-test-renderer": "16.6.3",
-    "redux": "4.0.1",
-    "superagent": "4.0.0-beta.5"
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.1.1",
+    "react-test-renderer": "^16.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-plugin-jest": "^22.17.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
